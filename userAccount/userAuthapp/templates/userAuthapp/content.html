@@ -1,0 +1,10 @@
+{% extends 'userAuthapp/main.html' %}
+{% block content %}
+{{request.user}}
+
+<a class="btn btn-lg btn-outline-danger" href="/logoutUser" role="button">Logout</a>
+
+
+
+
+{% endblock content %}
